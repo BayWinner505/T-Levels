@@ -1,0 +1,33 @@
+import time
+username = input("Enter username: ")
+password = input("Enter password: ")
+if password != "Password1." and username != "MrM123" :
+  print("Access Denined")
+else:
+  print("Access Granted")
+  time.sleep(.5)
+  print("Welcome to Administration!\nPlease choose an option form the list below.\nEnter the number that corrsponds with the command you would like to choose.")
+  time.sleep(.5)
+  print("1.Enter \n2.Veiw \n3.Show \n4.Delete \n5.Exit")
+  time.sleep(.5)
+  option = input("Enter option: ")
+  if option == "1":
+    print("Enter Chosen")
+import csv
+file = open('Student data.csv',w,)
+
+
+
+
+
+  elif option == "2":
+    print("Veiw Chosen")
+  elif option == "3":
+    print("Show Chosen")
+  elif option == "4":
+    print("Delete Chosen")
+  elif option == "5":
+    print("Exit Chosen")
+  else:
+    print("Invalid Option")
+  
